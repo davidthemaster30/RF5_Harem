@@ -5,7 +5,7 @@
     <Description>RF5_Harem</Description>
     <Product>RF5_Harem</Product>
     <Company>https://github.com/davidthemaster30/RF5-Harem</Company>
-    <Version>1.2.0</Version>
+    <Version>1.2.2</Version>
     <LangVersion>latest</LangVersion>
     <RootNamespace>RF5_Harem</RootNamespace>
     <RestoreAdditionalProjectSources>
@@ -19,7 +19,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="BepInEx.Unity.IL2CPP" Version="6.0.0-be.725" IncludeAssets="compile" />
+    <PackageReference Include="BepInEx.Unity.IL2CPP" Version="6.0.0-be.785" IncludeAssets="compile" />
     <PackageReference Include="BepInEx.PluginInfoProps" Version="2.*" />
   </ItemGroup>
 
