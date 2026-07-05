@@ -2,7 +2,6 @@ using BepInEx.Configuration;
 
 namespace RF5_Harem.Configuration;
 
-
 internal static class MarriageConfig
 {
 	internal const string SectionName = "Marriage";
@@ -17,7 +16,7 @@ internal static class MarriageConfig
 	internal static ConfigEntry<bool> NeedDoubleBed;
 	internal static ConfigEntry<bool> EventCheck;
 
-		internal static void Load(ConfigFile Config)
+	internal static void Load(ConfigFile Config)
 	{
 		MinLoveStoryProgress = Config.Bind(SectionName, nameof(MinLoveStoryProgress), DefaultMinLoveProgress, MinLoveStoryProgressDescription);
 		MinLoveLevel = Config.Bind(SectionName, nameof(MinLoveLevel), DefaultMinLoveProposal, MinLoveLevelDescription);
